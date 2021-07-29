@@ -1,0 +1,145 @@
+#Here you can find all the settings from a shop section and the main shop menu
+
+#All options that you can use:
+
+# Option 'name-config': is the name that is be used in the configs for the current shop section. If you change this the names that are used in the config for the current shop will apply after you reload the plugin with /sreload.
+# Option 'enable': means if you want to enable this shop section in the main shop.
+# Option 'material': means what type of block/item you want to set the shop section to.
+# Option 'displayname': is the name of the item in the main shop menu. (You can use all color codes, listed here: https://www.digminecraft.com/lists/color_list_pc.php)
+# Option 'place': means in what slot you want to place the item in the main shop menu.
+# Option 'potion/glow": if set to true the potion has a glow effect, if set to false the potion has none potion effect (material has to be "potion" for this effect to work)
+# Option 'lore': this option makes it possible for you to create custom lore on a item (Any minecraft color codes can be used)
+
+#Here is an example customized shop section called "Wood":
+
+# Wood:
+#   enable: true
+#   material: "oak_log"
+#   displayname: "&8Wood"
+#   place: 30
+#   lore:
+#   - "Hey,"
+#   - "this is a example lore."
+
+#Here is an example customized potion shop section called "Potions":
+
+# Potions:
+#   enable: true
+#   material: "potion"
+#   potion-glow
+#   displayname: "&dPotions"
+#   place: 25
+
+ShopSections:
+
+  Blocks:
+    enable: true
+    material: "GRASS_BLOCK"
+    displayname: "&2&lBlocks"
+    place: 19
+
+  Decoration:
+    enable: true
+    material: "TUBE_CORAL"
+    displayname: "&9&lDecoration"
+    place: 30
+
+  Dyes:
+    enable: true
+    material: "CYAN_DYE"
+    displayname: "&2&lDyes"
+    place: 23
+
+  Enchanting:
+    enable: true
+    material: "ENCHANTED_BOOK"
+    displayname: "&d&lEnchanting"
+    place: 22
+    lore:
+    - "&5&lGear up with enchantments!"
+
+  Farming:
+    enable: true
+    material: "WHEAT"
+    displayname: "&a&lFarming"
+    place: 20
+
+  Food:
+    enable: true
+    material: "COOKED_BEEF"
+    displayname: "&6&lFood"
+    place: 25
+
+  Mobs:
+    enable: true
+    material: "GUNPOWDER"
+    displayname: "&7&lMobs"
+    place: 21
+
+  Music:
+    enable: true
+    material: "MUSIC_DISC_STRAD"
+    displayname: "&6&lMusic"
+    place: 14
+
+  Ores:
+    enable: true
+    material: "IRON_INGOT"
+    displayname: "&f&lOres"
+    place: 13
+
+  Others:
+    enable: true
+    material: "SADDLE"
+    displayname: "&c&lOthers"
+    place: 24
+
+  Potions:
+    enable: true
+    material: "POTION"
+    displayname: "&d&lPotions + Tipped Arrows"
+    potion-glow: true
+    place: 40
+
+  Redstone:
+    enable: true
+    material: "REDSTONE"
+    displayname: "&c&lRedstone"
+    place: 32
+    lore:
+    - "&4&lFor all redstone geeks!"
+
+  Spawners:
+    enable: true
+    material: "SPAWNER"
+    displayname: "&8&lSpawners"
+    place: 31
+
+  Workstations:
+    enable: true
+    material: "GRINDSTONE"
+    displayname: "&7&lWorkstations"
+    place: 12
+    lore:
+    - "&8&lGive your villager a job,"
+    - "&8&lor use it for your own."
+
+  SpawnEggs:
+    enable: false
+    material: "BAT_SPAWN_EGG"
+    displayname: "&8&lSpawnEggs"
+    place: 4
+
+  Z_EverythingElse:
+    enable: false
+    material: "BEDROCK"
+    displayname: "Z_EverythingElse"
+    place: 41
+
+#This is the item that will fill in empty holes inside the main shop
+Fill-item:
+
+  material: "GRAY_STAINED_GLASS_PANE"
+# displayname: "&8Nothing here"
+  #Disable this item by setting this value to false
+  enable: true
