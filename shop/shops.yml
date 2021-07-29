@@ -68,6 +68,14 @@ Building:
     material: "JUNGLE LOG"
     buy: 40
     sell: 10
+  16:
+    material: "ICE"
+    buy: 80
+    sell: 10
+  17:
+    material: "SOUL_SAND"
+    buy: 80
+    sell: 10
 
 #==================== Mining ====================#
 Mining:
@@ -194,7 +202,7 @@ Farming:
     sell: 25
   2:
     material: "SUGAR_CANE"
-    buy: 40
+    buy: 50
     sell: 10
   3:
     material: "COCOA_BEANS"
@@ -202,7 +210,7 @@ Farming:
     sell: 15
   4:
     material: "BEETROOT_SEEDS"
-    buy: 30
+    buy: 10
     sell: 5
   5:
     material: "MELON_SEEDS"
@@ -218,9 +226,9 @@ Farming:
     sell: 5
   8:
     material: "POTATO"
-    buy: 50
+    buy: 150
     sell: 10
   9:
     material: "CARROT"
-    buy: 50
+    buy: 150
     sell: 10
