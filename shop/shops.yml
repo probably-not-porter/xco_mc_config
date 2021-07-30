@@ -89,7 +89,7 @@ Mining:
     buy: 160
     sell: 40
   3:
-    material: "GOLD_INGOT"
+    material: "GOLD_INGOT" 
     buy: 200
     sell: 50
   4:
@@ -106,92 +106,92 @@ Dye:
 
   1:
     material: "BLACK_DYE"
-    buy: 50
-    sell: 10
+    buy: 100
+    sell: 5
   2:
     material: "BLUE_DYE"
-    buy: 50
-    sell: 10
+    buy: 100
+    sell: 5
   3:
     material: "BROWN_DYE"
-    buy: 50
-    sell: 10
+    buy: 100
+    sell: 5
   4:
     material: "CYAN_DYE"
-    buy: 50
-    sell: 10
+    buy: 100
+    sell: 5
   5:
     material: "GRAY_DYE"
-    buy: 50
-    sell: 10
+    buy: 100
+    sell: 5
   6:
     material: "GREEN_DYE"
-    buy: 50
-    sell: 10
+    buy: 100
+    sell: 5
   7:
     material: "LIGHT_BLUE_DYE"
-    buy: 50
-    sell: 10
+    buy: 100
+    sell: 5
   8:
     material: "LIGHT_GRAY_DYE"
-    buy: 50
-    sell: 10
+    buy: 100
+    sell: 5
   9:
     material: "LIME_DYE"
-    buy: 50
-    sell: 10
+    buy: 100
+    sell: 5
   10:
     material: "MAGENTA_DYE"
-    buy: 50
-    sell: 10
+    buy: 100
+    sell: 5
   11:
     material: "ORANGE_DYE"
-    buy: 50
-    sell: 10
+    buy: 100
+    sell: 5
   12:
     material: "PINK_DYE"
-    buy: 50
-    sell: 10
+    buy: 100
+    sell: 5
   13:
     material: "PURPLE_DYE"
-    buy: 50
-    sell: 10
+    buy: 100
+    sell: 5
   14:
     material: "RED_DYE"
-    buy: 50
-    sell: 10
+    buy: 100
+    sell: 5
   15:
     material: "WHITE_DYE"
-    buy: 50
-    sell: 10
+    buy: 100
+    sell: 5
   16:
     material: "YELLOW_DYE"
-    buy: 50
-    sell: 10
+    buy: 100
+    sell: 5
   17:
     material: "AZURE_BLUET"
-    buy: 50
-    sell: 10
+    buy: 100
+    sell: 5
   18:
     material: "BLUE_ORCHID"
-    buy: 50
-    sell: 10
+    buy: 100
+    sell: 5
   19:
     material: "CORNFLOWER"
-    buy: 50
-    sell: 10
+    buy: 100
+    sell: 5
   20:
     material: "RED_TULIP"
-    buy: 50
-    sell: 10
+    buy: 100
+    sell: 5
   21:
     material: "SUNFLOWER"
-    buy: 50
-    sell: 10
+    buy: 100
+    sell: 5
   22:
     material: "INK_SAC"
-    buy: 50
-    sell: 10
+    buy: 100
+    sell: 5
   
 #==================== Farming ====================#
 Farming:
@@ -226,9 +226,13 @@ Farming:
     sell: 5
   8:
     material: "POTATO"
-    buy: 150
+    buy: 100
     sell: 10
   9:
     material: "CARROT"
-    buy: 150
+    buy: 100
     sell: 10
+  10:
+    material: "NETHER_WART"
+    buy: 60
+    sell: 15
