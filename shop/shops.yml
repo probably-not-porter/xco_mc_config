@@ -230,11 +230,11 @@ Farming:
     sell: 5
   8:
     material: "POTATO"
-    buy: 100
+    buy: 150
     sell: 10
   9:
     material: "CARROT"
-    buy: 100
+    buy: 150
     sell: 10
   10:
     material: "NETHER_WART"
