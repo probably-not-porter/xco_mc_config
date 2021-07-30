@@ -250,19 +250,19 @@ town:
  
   # Limits the maximum amount of bonus blocks a town can buy.
   # This setting does nothing when town.max_purchased_blocks_uses_town_levels is set to true.
-  max_purchased_blocks: '0'
+  max_purchased_blocks: '200'
  
   # When set to true, the town_level section of the config determines the maximum number of bonus blocks a town can purchase.
-  max_purchased_blocks_uses_town_levels: 'true'
+  max_purchased_blocks_uses_town_levels: 'false'
  
   # maximum number of plots any single resident can own
-  max_plots_per_resident: '100'
+  max_plots_per_resident: '250'
  
   # maximum number used in /town claim/unclaim # commands.
   # set to 0 to disable limiting of claim radius value check.
   # keep in mind that the default value of 4 is a radius, 
   # and it will allow claiming 9x9 (80 plots) at once.
-  max_claim_radius_value: '4'
+  max_claim_radius_value: '6'
  
   # Maximum number of towns allowed on the server.
   town_limit: '3000'
