@@ -1,0 +1,222 @@
+# To learn how to create signs, please
+# visit the signs.yml documentation on GitHub:
+# https://github.com/cervinakuy/KitPvP/wiki/signs.yml
+
+Signs:
+  Kit:
+    Line-1: '&7[&b&lKIT-PVP&7]'
+    Line-2: '&1Click to select'
+    Line-3: '&1%kit% kit'
+    Line-4: ' '
+  Clear:
+    Line-1: '&7[&b&lKIT-PVP&7]'
+    Line-2: '&1Click to clear'
+    Line-3: '&1your current kit'
+    Line-4: ' '
+  Menu:
+    Line-1: '&7[&b&lKIT-PVP&7]'
+    Line-2: '&1Click to open'
+    Line-3: '&1the kit selector'
+    Line-4: ' '
+  Stats:
+    Line-1: '&7[&b&lKIT-PVP&7]'
+    Line-2: '&1Click to view'
+    Line-3: '&1your stats'
+    Line-4: ' '
+  Refill:
+    Line-1: '&7[&b&lKIT-PVP&7]'
+    Line-2: '&1Click to refill'
+    Line-3: '&1your soups'
+    Line-4: ' '
+  Arena:
+    Line-1: '&7[&b&lKIT-PVP&7]'
+    Line-2: '&1Click to teleport'
+    Line-3: '&1to &1%arena% &1arena'
+    Line-4: ' '
+  Locations:
+    '2':
+      Type: Kit
+      Kit: Fighter
+      World: pvp
+      X: 2
+      Y: 9
+      Z: 4
+    '3':
+      Type: Kit
+      Kit: Archer
+      World: pvp
+      X: 1
+      Y: 9
+      Z: 4
+    '4':
+      Type: Kit
+      Kit: Soldier
+      World: pvp
+      X: 0
+      Y: 9
+      Z: 4
+    '5':
+      Type: Kit
+      Kit: Tank
+      World: pvp
+      X: -1
+      Y: 9
+      Z: 4
+    '6':
+      Type: Kit
+      Kit: Bomber
+      World: pvp
+      X: -2
+      Y: 9
+      Z: 4
+    '8':
+      Type: Kit
+      Kit: Rogue
+      World: pvp
+      X: 3
+      Y: 11
+      Z: 3
+    '9':
+      Type: Kit
+      Kit: Fighter
+      World: pvp
+      X: 2
+      Y: 11
+      Z: 3
+    '10':
+      Type: Kit
+      Kit: Soldier
+      World: pvp
+      X: 1
+      Y: 11
+      Z: 3
+    '11':
+      Type: Kit
+      Kit: Tank
+      World: pvp
+      X: -1
+      Y: 11
+      Z: 3
+    '12':
+      Type: Kit
+      Kit: Archer
+      World: pvp
+      X: -2
+      Y: 11
+      Z: 3
+    '13':
+      Type: Kit
+      Kit: Alchemist
+      World: pvp
+      X: -3
+      Y: 11
+      Z: 3
+    '1':
+      Type: Stats
+      World: pvp
+      X: 0
+      Y: 11
+      Z: -3
+    '7':
+      Type: Arena
+      Arena: kitpvp
+      World: kitpvp
+      X: -186
+      Y: 89
+      Z: -193
+    '14':
+      Type: Kit
+      Kit: rogue
+      World: pvp-lobby
+      X: -3
+      Y: 2
+      Z: -2
+    '15':
+      Type: Kit
+      Kit: Soldier
+      World: pvp-lobby
+      X: -4
+      Y: 2
+      Z: -2
+    '16':
+      Type: Kit
+      Kit: Fighter
+      World: pvp-lobby
+      X: -5
+      Y: 2
+      Z: -2
+    '17':
+      Type: Kit
+      Kit: Tank
+      World: pvp-lobby
+      X: -7
+      Y: 2
+      Z: -2
+    '18':
+      Type: Kit
+      Kit: Archer
+      World: pvp-lobby
+      X: -8
+      Y: 2
+      Z: -2
+    '19':
+      Type: Kit
+      Kit: Alchemist
+      World: pvp-lobby
+      X: -9
+      Y: 2
+      Z: -2
+    '21':
+      Type: Kit
+      Kit: Fighter
+      World: pvp-1
+      X: -226
+      Y: 8
+      Z: -191
+    '22':
+      Type: Kit
+      Kit: Rogue
+      World: pvp-1
+      X: -226
+      Y: 8
+      Z: -192
+    '23':
+      Type: Kit
+      Kit: Tank
+      World: pvp-1
+      X: -226
+      Y: 7
+      Z: -190
+    '24':
+      Type: Kit
+      Kit: Archer
+      World: pvp-1
+      X: -226
+      Y: 7
+      Z: -191
+    '25':
+      Type: Kit
+      Kit: Alchemist
+      World: pvp-1
+      X: -226
+      Y: 7
+      Z: -192
+    '26':
+      Type: Clear
+      World: pvp-1
+      X: -222
+      Y: 8
+      Z: -189
+    '27':
+      Type: Stats
+      World: pvp-1
+      X: -222
+      Y: 8
+      Z: -190
+    '20':
+      Type: Kit
+      Kit: Soldier
+      World: pvp-1
+      X: -226
+      Y: 8
+      Z: -190

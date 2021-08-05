@@ -1,0 +1,98 @@
+# To learn more about customizing the menu, please
+# visit the menu.yml documentation on GitHub:
+# https://github.com/cervinakuy/KitPvP/wiki/menu.yml
+
+Menu:
+  General:
+    Title: Kits
+    Size: 54
+  Items:
+    '10':
+      Name: '&a&lSoldier'
+      Material: IRON_CHESTPLATE
+      Lore:
+      - '&6ITEMS: '
+      - ' '
+      - '&7- Iron Armor'
+      - '&7- Stone Sword'
+      - '&7- 4x Soup'
+      - ' '
+      - '&eLeft-click to select.'
+      Commands:
+        Left-Click:
+        - 'player: kp kit Soldier'
+    '11':
+      Name: '&a&lRogue'
+      Material: LEATHER_CHESTPLATE
+      Lore:
+      - '&6ITEMS: '
+      - ' '
+      - '&7- Leather Armor'
+      - '&7- Iron Sword'
+      - '&7- Bow'
+      - '&7- 64x Arrows'
+      - '&7- 4x Soup'
+      - ' '
+      - '&eLeft-click to select.'
+      Commands:
+        Left-Click:
+        - 'player: kp kit Rogue'
+    '12':
+      Name: '&a&lFighter'
+      Material: IRON_SWORD
+      Lore:
+      - '&6ITEMS: '
+      - ' '
+      - '&7- Chainmail Armor'
+      - '&7- Iron Sword'
+      - '&7- 4x Soup'
+      - ' '
+      - '&eLeft-click to select.'
+      Commands:
+        Left-Click:
+        - 'player: kp kit Fighter'
+    '14':
+      Name: '&a&lTank'
+      Material: DIAMOND_CHESTPLATE
+      Lore:
+      - '&6ITEMS: '
+      - ' '
+      - '&7- Diamond Armor'
+      - '&7- Wooden Sword'
+      - '&7- 3x Healing Potion'
+      - '&7- 4x Soup'
+      - ' '
+      - '&eLeft-click to select.'
+      Commands:
+        Left-Click:
+        - 'player: kp kit Tank'
+    '15':
+      Name: '&a&lArcher'
+      Material: ARROW
+      Lore:
+      - '&6ITEMS: '
+      - ' '
+      - '&7- Leather Armor'
+      - '&7- Enchanted Bow'
+      - '&7- 256x Arrow'
+      - '&7- 4x Soup'
+      - ' '
+      - '&eLeft-click to select.'
+      Commands:
+        Left-Click:
+        - 'player: kp kit Archer'
+    '16':
+      Name: '&a&lAlchemist'
+      Material: AWKWARD_POTION
+      Lore:
+      - '&6ITEMS: '
+      - ' '
+      - '&7- Chainmail Armor'
+      - '&7- Instant Damage Potions'
+      - '&7- Poison Potions'
+      - '&7- Healing Potions'
+      - ' '
+      - '&eLeft-click to select.'
+      Commands:
+        Left-Click:
+        - 'player: kp kit Alchemist'
